@@ -1,0 +1,94 @@
+/*
+Theme Name: Flexiframe
+Theme URI: https://github.com/lamberger
+Description: A starter theme based on 1140 css grid ( http://cssgrid.net/ ) and Starker HTML 5 ( http://nathanstaines.com/articles/starkers-html5/ )
+Version: 1.0 September 2011
+Author: Patrik Lamberger
+Author URI: https://github.com/lamberger
+Tags: html5, Responsive design
+*/
+
+@import "style/css/reset.css";
+@import "style/css/1140.css";
+@import "style/css/ie.css";
+
+/* WP Classes */
+.aligncenter { display:block; margin:0 auto }
+.alignleft { float:left }
+.alignright { float:right }
+.wp-caption { border:1px solid #666; text-align:center; background:#ccc; padding:10px; margin:10px }
+
+/************** Headings **************/
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: .8em;
+	margin: .4em 0 .4em 0;
+	color: #444;
+}
+h1 {font-size: 2.0em;}
+h2 {font-size: 1.6em;}
+h3 {font-size: 1.4em;}
+h4 {font-size: 1.2em;}
+h5 {font-size: 1.1em;}
+h6 {font-size: 1.0em;}
+
+/************** Lists **************/
+ul, ol {
+	margin: 1em 0 1.4em 1.5em;
+	padding: 0;
+	line-height: 140%;
+}
+li {
+	margin: 0 0 .5em 0;
+	padding: 0;
+}
+
+/************** Paragraf **************/
+
+p{ 
+	line-height: 140%;
+	margin: 0 0 1.2em;
+	padding: 0;
+}
+
+
+
+/**********************************
+ * ! Layout for desktop version   * 
+ **********************************/
+
+	body { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; } 
+	/* font: .81em/150% Arial, Helvetica, sans-serif; */
+	
+	hgroup h2{font-size: .9em; margin-top: .3em;}
+	
+
+/************************************************
+ * ! Layout for small screen & mobile version   *
+ ************************************************/
+ 
+@media only screen and (max-width: 1023px) {
+
+	body { }
+	
+}
+	
+@media handheld, only screen and (max-width: 767px) {
+
+	body { }
+
+}
+
+
+/**********************************************
+ * ! Provide higher res assets for iPhone 4   *
+ **********************************************/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}
