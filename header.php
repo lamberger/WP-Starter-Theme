@@ -44,7 +44,10 @@
 		<div class="sevencol last">
 		
 			<!-- header menu -->
-		
+			<nav>
+				<?php wp_list_pages('title_li='); ?><!-- To include only certain pages 'include=1,2,4,10&title_li=' -->
+			</nav>
+			
 		</div><!-- End sevencol-->
 
 	</div><!-- End row-->

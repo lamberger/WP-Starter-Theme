@@ -27,7 +27,7 @@
 			<?php get_sidebar() ?>
 
 			<?php endwhile; ?>
-	
+			
 			<?php if (show_posts_nav()) : ?>
 				<nav>
 					<ul>
@@ -38,12 +38,18 @@
 			<?php endif; ?>
 
 			<?php else : ?>
-
-				<h2>Not Found</h2>
-				<p>Sorry, but you are looking for something that isn't here.</p>
-			<?php get_search_form(); ?>
-
+			<div class="container">
+				<div class="row">
+					<div class="twelvecol">
+						<h2>Not Found</h2>
+							<p>Sorry, but you are looking for something that isn't here.</p>
+							<?php get_search_form(); ?>
+			
+					</div><!-- End twelvecol -->
+				</div><!-- End row-->
+			</div><!-- End container -->
 			<?php endif; ?>
+			
 
 		</div><!-- End fourcol-->
 
