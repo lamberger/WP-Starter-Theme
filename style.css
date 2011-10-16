@@ -2,7 +2,7 @@
 Theme Name: Flexiframe
 Theme URI: https://github.com/lamberger
 Description: A starter theme based on 1140 css grid ( http://cssgrid.net/ ) and Starker HTML 5 ( http://nathanstaines.com/articles/starkers-html5/ )
-Version: 1.0 September 2011
+Version: 0.1 September 2011
 Author: Patrik Lamberger
 Author URI: https://github.com/lamberger
 Tags: html5, Responsive design
@@ -61,7 +61,8 @@ p{
 	/* font: .81em/150% Arial, Helvetica, sans-serif; */
 	
 	hgroup h2{font-size: .9em; margin-top: .3em;}
-	nav{display: inline;}
+	nav li, aside li{display: inline;}
+	
 
 /************************************************
  * ! Layout for small screen & mobile version   *

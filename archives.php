@@ -3,12 +3,11 @@
 Template Name: Archives
 */
 ?>
-
 <?php get_header(); ?>
 <div class="container">
 	<div class="row">
 		
-		<div class="twelvecol last">
+		<div class="twelvecol">
 			
 			<?php get_search_form(); ?>
 
